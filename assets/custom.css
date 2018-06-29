@@ -1,0 +1,81 @@
+html, body {
+    height:100%;
+}
+body {
+    background-color: #990009;
+    background-image: url('/assets/protest_2.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-attachment: fixed;
+
+}
+.container {
+    background-color:rgba(255,255,255,.9);
+    border-radius: 0px;
+    border:2px solid #ffffff;
+    -webkit-box-shadow: inset 0px 0px 20px 10px rgba(0,0,0,0.08);
+    -moz-box-shadow: inset 0px 0px 20px 10px rgba(0,0,0,0.08);
+    box-shadow: inset 0px 0px 20px 10px rgba(0,0,0,0.08);
+}
+@media (min-width: 992px) {
+    .container {
+        border-radius: 3px;
+        margin-top:10px;
+        margin-bottom:50px;
+    }
+    .glyphicon-heading {
+        color:#999;
+    }
+}
+@media (max-width: 992px) {
+    #logo-przeciwko {
+        max-width:420px;
+    }
+    .container {
+        border-radius: 0px;
+        margin-top:10px;
+        margin-bottom:50px;
+    }
+}
+.gmap-preview {
+    border:7px solid #ffffff;
+}
+.gmap-preview img {
+    max-height:200px;
+}
+
+#list-links {
+    list-style:noune;
+}
+#list-links li {
+    margin-bottom:3px;
+}
+.lead strong {
+    font-weight:bold;
+}
+hr {
+    border-bottom: 1px solid white;
+}
+.hashtag {
+    color: #990009;
+}
+.zoom {
+    transition: transform .5s;
+}
+
+.zoom:hover {
+    transform: scale(1.03);
+}
+.block-desktop [id^=time_counter-]{
+    float:right;
+}
+
+h2, h3 {
+    font-family: 'steelfish', Arial, sans-serif;
+}
+
+@font-face {
+    font-family: 'steelfish';
+    src: url('/assets/steelfis.ttf') format('truetype');
+}
